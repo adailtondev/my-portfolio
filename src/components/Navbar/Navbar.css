@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
   gap: 0 20%;
+  background: #F5EFE7;
 }
 
 .nav button {
@@ -13,6 +14,7 @@
   right: 10px;
   border: none;
   display: none;
+  background: none;
 }
 
 .nav img {
@@ -21,19 +23,23 @@
   height: 75px;
 }
 
-.nav div a {
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
   margin-left: 40px;
   text-decoration: none;
   font-size: 1.2rem;
-  color: rgb(65, 60, 60);
+  color: #000;
   padding: 0px 20px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
-.nav div a:hover {
+.nav ul li:hover {
   color: rgb(0, 0, 0);
-  border-bottom: 4px solid black;
-
+  border-left: 4px solid #77037B;
   font-size: 1.5rem;
 }
 
@@ -62,7 +68,7 @@
     gap: 0;
   }
 
-  .options {
+  .nav ul {
     display: none;
   }
 
@@ -90,24 +96,4 @@
 
 /* side bar */
 
-.sidebar {
-  width: 200px;
-  height: 100vh; /* altura igual à altura da viewport */
-  background-color: #280d0d;
-  position: fixed;
-  top: 0;
-  left: -500px;
-  transition: left 0.3s ease;
-}
 
-.sidebar.open {
-  width: 200px;
-  height: 100vh; /* altura igual à altura da viewport */
-  background-color: #280d0d;
-  position: fixed;
-  top: 0;
-  left: 0px;
-  transition: left 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}

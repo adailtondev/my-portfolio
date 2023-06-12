@@ -1,12 +1,16 @@
-export default function Sidebar({isOpen}) {
+import "./Sidebar.css";
+
+export default function Sidebar({ isOpen }) {
   return (
-    <div className={`sidebar ${isOpen ? "open" : ""}`}>
-      <a href="" className="">
+    <ul className={`sidebar ${isOpen ? "open" : ""}`}>
+      <li><img src="../../src/assets/Henrique.png" alt="" /></li>
+
+      <li href="" className="">
         Início
-      </a>
-      <a href="">Sobre mim</a>
-      <a href="">Projetos</a>
-      <a href="">Contato</a>
-    </div>
+      </li>
+      <li href="">Sobre mim</li>
+      <li href="">Projetos</li>
+      <li href="">Contato</li>
+    </ul>
   );
 }
