@@ -1,11 +1,13 @@
 import "./MainSec.css";
-import { Icon } from "@iconify/react";
 import Typewriter from "typewriter-effect";
 import { Fade, Slide } from "react-awesome-reveal";
+import IconSection from "../IconSection/IconSection";
+import { Link } from "react-scroll";
+import { Icon } from "@iconify/react";
 
 export default function MainSec() {
   return (
-    <main className="main-section min-vh-100">
+    <main id="divHome" className="main-section min-vh-100 position-relative">
       <section className="intro">
         <Slide direction="right">
           <h1 className="titulo">
@@ -13,10 +15,9 @@ export default function MainSec() {
           </h1>
         </Slide>
         <Slide direction="up">
-          <p className="">
-            <span
-              style={{ color: "#77037B", fontSize: "2rem", fontWeight: "700" }}
-            >
+          <span
+            style={{ color: "#77037B", fontSize: "1.8rem", fontWeight: "700" }}
+          >
             <Typewriter
               options={{
                 strings: [
@@ -27,28 +28,14 @@ export default function MainSec() {
                 loop: true,
               }}
             />
-            </span>
-            <span style={{ color: "#f5efe7", fontSize: "1.5rem" }}>
-              {" "}
-              em busca de oportunidades na área.
-            </span>
-          </p>
+          </span>
+          <span style={{ color: "#f5efe7", fontSize: "1.5rem" }}>
+            {" "}
+            em busca de oportunidades na área.
+          </span>
         </Slide>
       </section>
-      <section className="icon-section">
-        <div className="icons">
-          <Icon icon="teenyicons:linkedin-solid" color="white" />
-        </div>
-        <div className="icons">
-          <Icon icon="teenyicons:github-solid" color="white" />
-        </div>
-        <div className="icons">
-          <Icon icon="teenyicons:instagram-solid" color="white" />
-        </div>
-        <div className="icons">
-          <Icon icon="mdi:email" color="white" />
-        </div>
-      </section>
+      <IconSection flex={"flex-column"} color={"white"} />
     </main>
   );
 }

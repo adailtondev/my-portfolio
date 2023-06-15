@@ -1,0 +1,40 @@
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: fit-content;
+}
+
+.icons {
+  width: fit-content;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.icons:hover {
+  transition: 0.5s;
+  margin: 4px 0;
+  border-bottom: 4px solid #77037b;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1350px) {
+  .icon-section {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 950px) {
+  .icon-section {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .icon-section {
+    flex-direction: row !important;
+    margin: 100px 0 0 0;
+  }
+}

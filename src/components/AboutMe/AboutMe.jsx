@@ -1,16 +1,21 @@
 import "./AboutMe.css";
 import { Icon } from "@iconify/react";
 import { Fade, Slide } from "react-awesome-reveal";
+import { Link } from "react-scroll";
 
 export default function AboutMe() {
   return (
-    <Fade duration={3000} > 
-      <section className="about-me min-vh-100">
+    <Fade duration={3000}>
+      <section id="divSobreMim" className="about-me min-vh-100">
         <div className="about-img">
           <img src="../../src/assets/1663006366205.jfif" alt="" />
         </div>
         <div className="about-txt">
-        <h2><Fade cascade damping={0.1}>Um pouco sobre mim</Fade></h2>
+          <h2>
+            <Fade cascade damping={0.1}>
+              Um pouco sobre mim
+            </Fade>
+          </h2>
           <p>
             Iniciei meus estudos em programação há aproximadamente um ano,
             inicialmente como um hobby para me distrair. Com o passar do tempo,

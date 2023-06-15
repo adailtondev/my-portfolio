@@ -1,10 +1,15 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./Projects.css";
 import { Bounce, Zoom } from "react-awesome-reveal";
+import { Link } from "react-scroll";
+import { Icon } from "@iconify/react";
 
 export default function Projects() {
   return (
-    <section className="project-section min-vh-100">
+    <section
+      id="divProjetos"
+      className="project-section min-vh-100 divProjetos"
+    >
       <h1>
         <Zoom>Alguns dos meus projetos:</Zoom>
       </h1>
@@ -42,6 +47,17 @@ export default function Projects() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+      </div>
+      <div className="div-botao position-relative">
+        <Link to={"divHome"} smooth={true} duration={500}>
+          <Icon
+            className="button-projects"
+            width={40}
+            icon="mingcute:arrow-up-line"
+            color={"white"}
+            
+          />
+        </Link>
       </div>
     </section>
   );

@@ -107,6 +107,14 @@
   .about-me .about-img {
     width: 60%;
   }
+  .button-about {
+    position: absolute;
+    right: -160px;
+    bottom: 10px;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
 }
 
 .reveal {

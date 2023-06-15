@@ -24,11 +24,11 @@ export default function Navbar() {
       <Sidebar isOpen={isOpen} />
       <ul className="options">
         <li>
-          <Link to="divDeDestino" smooth={true} duration={500}>Início</Link>
+          <Link to="divHome" smooth={true} duration={500}>Início</Link>
         </li>
-        <li>Sobre mim</li>
-        <li>Projetos</li>
-        <li>Contato</li>
+        <li><Link to="divSobreMim" smooth={false} duration={700}>Sobre mim</Link></li>
+        <li><Link to="divProjetos" smooth={false} duration={700}>Projetos</Link></li>
+        <li><Link to="divContato" smooth={false} duration={700}>Contato</Link></li>
       </ul>
     </nav>
   );
