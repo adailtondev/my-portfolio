@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <img
-        src={"/src/assets/Henrique.png"}
+        src={"/public/assets/Henrique.png"}
         alt=""
         className={`${isOpen ? "nav-open" : ""}`}
       />
