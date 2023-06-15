@@ -60,11 +60,14 @@
   .carrossel {
     margin: 0;
   }
+  .div-botao {
+    border-radius: 50%;
+  }
   .button-projects {
     display: block;
     position: absolute;
     right: -160px;
-    bottom: -140px;
+    bottom: -100px;
     width: fit-content;
     border: 2px solid white;
     border-radius: 50%;

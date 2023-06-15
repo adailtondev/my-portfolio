@@ -19,7 +19,7 @@ export default function Navbar() {
       />
 
       <button onClick={toggleSidebar}>
-        <Icon icon="ic:baseline-menu" />
+        <Icon icon="ic:baseline-menu" color="black" />
       </button>
       <Sidebar isOpen={isOpen} />
       <ul className="options">
