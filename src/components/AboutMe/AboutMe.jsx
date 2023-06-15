@@ -1,14 +1,14 @@
 import "./AboutMe.css";
 import { Icon } from "@iconify/react";
 import { Fade, Slide } from "react-awesome-reveal";
-import { Link } from "react-scroll";
+
 
 export default function AboutMe() {
   return (
     <Fade duration={3000}>
       <section id="divSobreMim" className="about-me min-vh-100">
         <div className="about-img">
-          <img src={"../../src/assets/1663006366205.jfif"} alt="" />
+          <img src={"/src/assets/1663006366205.jfif"} alt="" />
         </div>
         <div className="about-txt">
           <h2>
