@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.cont {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.nav {
+  padding: 10px;
+}
+
+.nav div a{
+  margin: 0 50px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.nav div a:hover{
+  color: purple;
+  border-bottom: 4px solid black;
+  transition: linear 1s
+}

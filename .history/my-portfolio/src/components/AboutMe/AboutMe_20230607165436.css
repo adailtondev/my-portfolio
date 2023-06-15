@@ -1,0 +1,8 @@
+.about-me {
+    background-color: #f5efe7;
+}
+
+.about-me .about-img {
+    display: none;
+    border-radius: 100%;
+}

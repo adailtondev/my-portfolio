@@ -1,0 +1,17 @@
+body {
+  background: #F8F6F4;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.main-section img {
+  border-radius: 100%;
+}

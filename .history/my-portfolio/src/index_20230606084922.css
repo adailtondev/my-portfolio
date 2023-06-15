@@ -1,0 +1,16 @@
+body {
+  background-color: #454545;
+}
+
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+

@@ -1,0 +1,18 @@
+h1 {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+}
+
+a {
+  color: aliceblue;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.cont {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+

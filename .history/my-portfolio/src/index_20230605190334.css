@@ -1,0 +1,52 @@
+h1 {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.cont {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.nav {
+  padding: 10px;
+  align-items: center;
+}
+
+.nav div img {
+  object-fit: cover;
+  width: 200px;
+  height: 50px;
+  
+}
+
+.nav div a{
+  margin: 0 40px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(65, 60, 60);
+  padding: 0px 20px
+}
+
+.nav div a:hover{
+  color: rgb(0, 0, 0);
+  border-bottom: 4px solid black;
+  transition: 0.3s;
+}
+
+.options {
+  margin-left: 20%;
+}
+
+@media (max-width: 1050px) {
+  .nav {
+    background-color: blue;
+  }
+}

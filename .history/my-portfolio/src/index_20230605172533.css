@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+.cont {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+

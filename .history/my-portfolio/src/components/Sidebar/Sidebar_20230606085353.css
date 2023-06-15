@@ -1,0 +1,27 @@
+.sidebar {
+  width: 180px;
+  height: 100vh; 
+  background-color: #280d0d;
+  position: fixed;
+  top: 0;
+  left: -500px;
+  transition: left 0.3s ease;
+}
+
+.sidebar.open {
+  width: 200px;
+  height: 100vh; /* altura igual à altura da viewport */
+  background-color: #F8F6F4;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  transition: left 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20%;
+}
+
+.sidebar img {
+    width: 100px;
+    height:
+}

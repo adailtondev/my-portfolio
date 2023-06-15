@@ -1,0 +1,13 @@
+.project-section {
+    background: #212a3e;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-section {
+    color: #f5efe7
+}
+
+.carrossel {
+    width: 80%;
+}

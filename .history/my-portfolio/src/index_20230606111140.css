@@ -1,0 +1,24 @@
+body {
+  background: #F8F6F4;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+
+.main-section {
+  background: url('https://img.freepik.com/vetores-premium/abstrato-geometrico-quadrado-papel-branco-fundo_51543-773.jpg');
+}
+
+.main-section img {
+  border-radius: 100%;
+  opacity: 5%;
+  border: 4px solid black
+}

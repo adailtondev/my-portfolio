@@ -1,0 +1,18 @@
+body {
+  background: rgb(82, 0, 106);
+  background: radial-gradient(
+    circle,
+    rgba(82, 0, 106, 0) 64%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}

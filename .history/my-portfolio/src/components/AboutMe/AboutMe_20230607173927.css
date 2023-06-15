@@ -1,0 +1,32 @@
+.about-me {
+    background-color: #f5efe7;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me .about-img {
+    width: 50%;
+    margin-left: 30%;
+   
+}
+
+.about-me .about-img img{
+    border-radius: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid #77037B;
+}
+
+.about-me .about-txt {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.techs {
+    color: black;
+    font-size: 2rem;
+}

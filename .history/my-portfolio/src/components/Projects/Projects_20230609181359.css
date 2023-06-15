@@ -1,0 +1,35 @@
+.project-section {
+    background: #212a3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.project-section h1 {
+    color: #f5efe7;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.carrossel {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.carrossel .carrossel-img{
+    height: 400px;
+
+}
+
+.carousel-caption {
+    background-color: #212a3e;
+    opacity: 60%;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.carousel-caption h3, p {
+    z-index: 1;
+    opacity: 100%;
+}

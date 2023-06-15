@@ -1,0 +1,21 @@
+.about-me {
+    background-color: #f5efe7;
+}
+
+.about-me .about-img {
+    border-radius: 100%;
+}
+
+.about-me .about-txt p:nth-child(0) {
+    color: blue;
+}
+
+.about-me .about-txt p:nth-child(-1) {
+    color: rgb(255, 0, 123);
+}
+
+.about-me .about-txt p:nth-child(2) {
+    color: rgb(0, 255, 17);
+}
+
+

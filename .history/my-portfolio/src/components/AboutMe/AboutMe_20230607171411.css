@@ -1,0 +1,16 @@
+.about-me {
+    background-color: #f5efe7;
+}
+
+.about-me .about-img {
+    border-radius: 100%;
+    width: 30%;
+
+    overflow: hidden;
+}
+
+.about-me .about-img {
+    object-fit: cover;
+}
+
+

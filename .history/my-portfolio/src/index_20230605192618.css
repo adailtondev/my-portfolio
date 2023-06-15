@@ -1,0 +1,70 @@
+h1 {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.toggle {
+  color: black;
+}
+
+.cont {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.nav {
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav div img {
+  object-fit: cover;
+  width: 250px;
+  height: 50px;
+  
+}
+
+.nav div a{
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(65, 60, 60);
+  padding: 0px 20px;
+  transition: 0.3s;
+}
+
+.nav div a:hover{
+  color: rgb(0, 0, 0);
+  border-bottom: 4px solid black;
+  transition: 0.3s;
+  font-size: 1.8rem;
+}
+
+.options {
+  margin-left: 20%;
+}
+
+@media (max-width: 1050px) {
+  .nav {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav a {
+    display: none;
+  }
+
+  .options {
+    margin: 0;
+  }
+}
