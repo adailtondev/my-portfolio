@@ -34,7 +34,7 @@ export default function Projects() {
           <Carousel.Item className="carrossel-img">
             <img
               className="d-block w-100"
-              src={"/assets/nlwsetup.jpg"}
+              src="../../src/assets/nlwsetup.jpg"
               alt="Second slide"
             />
 

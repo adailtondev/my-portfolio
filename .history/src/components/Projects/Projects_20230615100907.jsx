@@ -18,7 +18,7 @@ export default function Projects() {
           <Carousel.Item className="carrossel-img">
             <div className="bg-carrossel">
               <img
-                className="d-block w-100"
+                className="d-block w-100 aa"
                 src={"/assets/starwarsproject.png"}
                 alt="First slide"
               />
@@ -34,7 +34,7 @@ export default function Projects() {
           <Carousel.Item className="carrossel-img">
             <img
               className="d-block w-100"
-              src={"/assets/nlwsetup.jpg"}
+              src="../../src/assets/nlwsetup.jpg"
               alt="Second slide"
             />
 
