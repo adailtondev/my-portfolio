@@ -8,7 +8,7 @@ export default function AboutMe() {
     <Fade duration={3000}>
       <section id="divSobreMim" className="about-me min-vh-100">
         <div className="about-img">
-          <img src="../../src/assets/1663006366205.jfif" alt="" />
+          <img src={"../../src/assets/1663006366205.jfif"} alt="" />
         </div>
         <div className="about-txt">
           <h2>
