@@ -17,14 +17,12 @@ export default function MainSec() {
             style={{ color: "#77037B", fontSize: "1.8rem", fontWeight: "700" }}
           >
             <Typewriter
-            words={['Desenvolvedor Front-End,', 'Entusiasta da tecnologia,']}
-            loop={5}
-            cursor
-            cursorStyle='|'
-            typeSpeed={200}
-            deleteSpeed={150}
-            delaySpeed={1000}
-          />
+              options={{
+                strings: ["Desenvolvedor Front-End,", "Entusiasta da tecnologia,"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
             
           </span>
           <span style={{ color: "#f5efe7", fontSize: "1.5rem" }}>

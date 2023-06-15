@@ -20,9 +20,9 @@ export default function MainSec() {
             words={['Desenvolvedor Front-End,', 'Entusiasta da tecnologia,']}
             loop={5}
             cursor
-            cursorStyle='|'
-            typeSpeed={200}
-            deleteSpeed={150}
+            cursorStyle='_'
+            typeSpeed={30}
+            deleteSpeed={20}
             delaySpeed={1000}
           />
             
