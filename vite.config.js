@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["typewriter-effect"],
+      external: ["typewriter-effect/dist/core"],
     },
   },
 });
