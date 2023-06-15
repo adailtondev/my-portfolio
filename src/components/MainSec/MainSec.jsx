@@ -29,7 +29,7 @@ export default function MainSec() {
           </span>
           <span style={{ color: "#f5efe7", fontSize: "1.5rem" }}>
             {" "}
-            em busca de oportunidades na área.
+            aberto a negócios.
           </span>
         </Slide>
       </section>

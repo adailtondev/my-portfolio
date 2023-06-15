@@ -62,10 +62,11 @@
   }
 
   .button-projects {
-    display: block;
+    display: flex;
     position: absolute;
-    right: -160px;
-    bottom: -100px;
-    width: fit-content;
+    left: 0px;
+    top: 70px;
+
+
   }
 }

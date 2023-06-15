@@ -12,23 +12,36 @@ export default function Navbar() {
   };
   return (
     <nav className="nav">
-      <img
-        src={"/assets/Henrique.png"}
-        alt=""
-        className={`${isOpen ? "nav-open" : ""}`}
-      />
-
+      <a href="" className={`logo ${isOpen ? "nav-open" : ""}`}>
+        <span className="logo-chaves">{`{ `}</span>
+        <span className="logo-nome">Henrique</span>
+        <span className="logo-chaves">{` }`}</span>
+      </a>
       <button onClick={toggleSidebar}>
-        <Icon icon="ic:baseline-menu" color="black" />
+        <Icon className="hamburguer" icon="ic:baseline-menu" color="black" />
       </button>
       <Sidebar isOpen={isOpen} />
       <ul className="options">
         <li>
-          <Link to="divHome" smooth={true} duration={500}>Início</Link>
+          <Link to="divHome" smooth={true} duration={500}>
+            Início
+          </Link>
         </li>
-        <li><Link to="divSobreMim" smooth={false} duration={700}>Sobre mim</Link></li>
-        <li><Link to="divProjetos" smooth={false} duration={700}>Projetos</Link></li>
-        <li><Link to="divContato" smooth={false} duration={700}>Contato</Link></li>
+        <li>
+          <Link to="divSobreMim" smooth={false} duration={700}>
+            Sobre mim
+          </Link>
+        </li>
+        <li>
+          <Link to="divProjetos" smooth={false} duration={700}>
+            Projetos
+          </Link>
+        </li>
+        <li>
+          <Link to="divContato" smooth={false} duration={700}>
+            Contato
+          </Link>
+        </li>
       </ul>
     </nav>
   );

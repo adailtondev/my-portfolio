@@ -26,7 +26,6 @@ export default function AboutMe() {
             </span>
           </p>
           <p>
-            Comecei a estudar Python, mas acabei me encantando pelo JavaScript.
             Atualmente, estou direcionando a maior parte dos meus estudos para
             <span style={{ fontWeight: "700 " }}> React e TypeScript</span>,
             enquanto também revisito conceitos mais básicos para solidificar meu
