@@ -1,5 +1,4 @@
 import "./MainSec.css";
-import Typewriter from "typewriter-effect";
 import { Slide } from "react-awesome-reveal";
 import IconSection from "../IconSection/IconSection";
 
@@ -16,16 +15,7 @@ export default function MainSec() {
           <span
             style={{ color: "#77037B", fontSize: "1.8rem", fontWeight: "700" }}
           >
-            <Typewriter
-              options={{
-                strings: [
-                  "Desenvolvedor Front-End,",
-                  "Entusiasta da tecnologia,",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
+          Desenvolvedor Front-End,
           </span>
           <span style={{ color: "#f5efe7", fontSize: "1.5rem" }}>
             {" "}
