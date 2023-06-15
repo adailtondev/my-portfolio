@@ -5,7 +5,7 @@ export default function Sidebar({ isOpen }) {
   return (
     <ul className={`sidebar ${isOpen ? "open" : ""}`}>
       <li>
-        <img src="/assets/Henrique.png" alt="" />
+        <img src="../../src/assets/Henrique.png" alt="" />
       </li>
       <li>
         <Link to="divHome" smooth={true} duration={500}>
