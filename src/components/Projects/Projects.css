@@ -4,9 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 0 0 0;
+  padding: 50px 0 50px 0;
 }
-.button-projects {
+
+.div-botao {
   display: none;
 }
 
@@ -59,11 +60,14 @@
   }
   .project-section h1 {
     color: #f5efe7;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
     text-align: center;
     width: 80%;
   }
   .carrossel {
     margin: 0;
   }
+  .project-section {
+  padding: 0   ;
+}
 }
