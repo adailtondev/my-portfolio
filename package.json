@@ -1,4 +1,4 @@
-  {
+{
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -18,7 +18,8 @@
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.8.9",
-    "react-typewriter": "^0.4.1"
+    "react-typewriter": "^0.4.1",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@iconify/react": "^4.1.0",
