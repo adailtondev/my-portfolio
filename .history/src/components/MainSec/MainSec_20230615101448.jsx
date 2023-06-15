@@ -18,7 +18,7 @@ export default function MainSec() {
           >
             <Typewriter
               options={{
-                strings: ["Desenvolvedor Front-End,", "Entusiasta da tecnologia,"],
+                strings: ["Desenvolvedor Front-End,", "World"],
                 autoStart: true,
                 loop: true,
               }}
