@@ -48,10 +48,10 @@ export default function Projects() {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div className="div-botao position-relative">
+      <div className="div-botao">
         <Link to={"divHome"} smooth={true} duration={500}>
           <Icon
-            className="button-projects"
+          className="setinha"
             width={40}
             icon="mingcute:arrow-up-line"
             color={"white"}

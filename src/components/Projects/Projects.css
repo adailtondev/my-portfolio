@@ -19,7 +19,6 @@
 
 .carrossel {
   width: 80%;
-  margin-bottom: 50px;
 }
 
 .carousel-caption {
@@ -44,6 +43,13 @@
   .carousel-caption {
     display: none;
   }
+  .div-botao {
+    display: flex;
+    justify-content: center;
+  }
+  .setinha {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -59,14 +65,5 @@
   }
   .carrossel {
     margin: 0;
-  }
-
-  .button-projects {
-    display: flex;
-    position: absolute;
-    left: 0px;
-    top: 70px;
-
-
   }
 }
