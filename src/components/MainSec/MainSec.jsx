@@ -1,9 +1,7 @@
 import "./MainSec.css";
 import Typewriter from "typewriter-effect";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import IconSection from "../IconSection/IconSection";
-import { Link } from "react-scroll";
-import { Icon } from "@iconify/react";
 
 export default function MainSec() {
   return (
