@@ -13,7 +13,7 @@ export default function AboutMe() {
         <div className="about-txt">
           <h2>
             <Fade cascade damping={0.1}>
-              Um pouco sobre mim
+              Um pouco sobre mimaaaaaaaaaaaaaaaaaa
             </Fade>
           </h2>
           <p>
