@@ -1,5 +1,5 @@
 import "./MainSec.css";
-import Typewriter from '../../../node_modules/typewriter-effect/dist/core'
+import Typewriter from "typewriter-effect";
 import { Slide } from "react-awesome-reveal";
 import IconSection from "../IconSection/IconSection";
 
