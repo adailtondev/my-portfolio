@@ -13,9 +13,9 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <a href="" className={`logo ${isOpen ? "nav-open" : ""}`}>
-        <span className="logo-chaves">{`{ `}</span>
+        <span className="logo-chaves">{`< `}</span>
         <span className="logo-nome">Henrique</span>
-        <span className="logo-chaves">{` }`}</span>
+        <span className="logo-chaves">{` />`}</span>
       </a>
       <button onClick={toggleSidebar}>
         <Icon className="hamburguer" icon="ic:baseline-menu" color="black" />

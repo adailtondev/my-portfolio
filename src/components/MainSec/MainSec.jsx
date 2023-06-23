@@ -21,7 +21,7 @@ export default function MainSec() {
             loop={5}
             cursor
             cursorStyle='|'
-            typeSpeed={200}
+            typeSpeed={50}
             deleteSpeed={150}
             delaySpeed={1000}
           />
